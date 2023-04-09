@@ -1,0 +1,32 @@
+
+body {
+    background-color: rgb(241, 237, 232);
+    margin-top: 3em;
+    text-align: center;
+}
+input, button {
+    font-size: 1.3em;
+    border-radius: 10px;
+    cursor: pointer;
+}
+input {
+    width: 540px;
+}
+#p-buttons {
+    border-top: 1px solid #000000;
+    padding-top: 1em;
+    margin: 2em;
+}
+#p-buttons button {
+    background-color: beige;
+    font-weight: bold;
+}
+#q-buttons {
+    border-bottom: 1px solid #000000;
+    padding-bottom: 1em;
+    margin: 2em;
+}
+#q-buttons button {
+    background-color: rgb(125, 197, 208);
+    font-weight: bold;
+}

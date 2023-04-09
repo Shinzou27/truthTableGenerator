@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <input type="text" placeholder="Digite a expressão" id="expression">
+    <button onClick="finalTruthTable()">Calcular</button>
+    <script src="/main.js"></script>
+    <button onClick="switchConcat()">Trocar Concatenação</button>
+    <div id="p-buttons">
+        <button onClick="chooseFunction(0)">P E Q</button>
+        <button onClick= "chooseFunction(1)">P OU Q</button>
+        <button onClick= "chooseFunction(2)">P IMPLICA Q</button>
+        <button onClick= "chooseFunction(3)">P SE E SOMENTE SE Q</button>
+        <button onClick= "chooseFunction(4)">NÃO P</button>
+    </div>
+    <div id="q-buttons">
+        <button onClick= "chooseFunction(5)">Q E P</button>
+        <button onClick= "chooseFunction(6)">Q OU P</button>
+        <button onClick= "chooseFunction(7)">Q IMPLICA P</button>
+        <button onClick= "chooseFunction(8)">Q SE E SOMENTE SE P</button>
+        <button onClick= "chooseFunction(9)">NÃO Q</button>
+    </div>
+</body>
+</html>
